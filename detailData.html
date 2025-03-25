@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Dataset</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">DatakuApp</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="detailData.html">Data</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Manage</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Detail Dataset</h2>
+        <p><strong>Nama File:</strong> real_estate.csv</p>
+        <p><strong>Deskripsi:</strong> Dataset berisi informasi mengenai harga rumah berdasarkan beberapa fitur seperti usia rumah, jarak ke MRT, dan lainnya.</p>
+        <p><strong>Tanggal Upload:</strong> 25 Maret 2025</p>
+        
+        <table border="1" id="data-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Usia Rumah</th>
+                    <th>Jarak ke MRT</th>
+                    <th>Jumlah Toko</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th>Harga Rumah</th>
+                </tr>
+            </thead>
+            <tbody id="data-body"></tbody>
+        </table>
+        <button id="load-more">Show More</button>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
